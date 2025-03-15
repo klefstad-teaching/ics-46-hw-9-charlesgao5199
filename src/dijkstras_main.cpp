@@ -1,7 +1,7 @@
 #include "dijkstras.h"
 
 int main() {
-    string file = "small.txt";
+    string file = "src/small.txt";
     Graph graph;
 
     file_to_graph(file, graph);
